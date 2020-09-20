@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/**
+ * Color scheme
+ * White = #EEEEEE
+ * Green = #32E0C4
+ * Grey = #393E46
+ * Black = #222831
+**/
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Bebas Neue, sans-serif;
+    background: #EEEEEE;
+    color: #222831;
+}
+
+/* --- HEADER --- */
+.header {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.header h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* --- SEARCH --- */
+.search-container {
+    display: flex;
+    margin: 10px 30%;
+    height: 30px;
+}
+
+.search-container input {
+    width: 100%;
+    padding-left: 5px;
+    background: #EEEEEE;
+    font-family: Bebas Neue, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #222831;
+    border: 1px solid #222831;
+    border-radius: 0;
+    border-right: 0;
+    outline: 0;
+}
+
+.search-container button {
+    width: 50px;
+    color: #222831;
+    border: 1px solid #222831;
+    border-radius: 0;
+    border-left: 0;
+    outline: 0;
+}
+
+.search-container button:hover {
+    cursor: pointer;
+}
+
+/* --- LOADING --- */
+.error-container, .loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.loading img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* --- ERROR --- */
+.error {
+    position: fixed;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FF4545;
+}
+
+.error button {
+    position: fixed;
+    display: block;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 50%;
+    color: #EEE;
+    background: #393E46;
+    line-height: 30px;
+    font-size: 30px;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.error p {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #EEEEEE;
+}
+
+.error p span {
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+/* --- IMAGES --- */
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* --- SCROLL TO TOP --- */
+.scroll-to-top-container {
+    position: fixed;
+    margin: 0px 15px 15px 0px;
+    opacity: 1;
+    bottom: 0;
+    right: 0;
+    transition: opacity .3s linear;
+}
+
+.scroll-to-top-container.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.scroll-to-top-container button {
+    cursor: pointer;
+    height: 40px;
+    padding: 10px;
+    color: #EEEEEE;
+    font-size: 15px;
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 2px;
+    background: #222831;
+    border: 0;
+    outline: 0;
+}
+
+@media screen and (max-width: 768px){
+    .search-container, .image-container {
+        margin: 10px 15px;
+    }
+    .error {
+        width: calc(100% - 70px);
+    }
+}
