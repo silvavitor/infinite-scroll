@@ -126,7 +126,6 @@ function handleScrollToTopButton() {
 }
 
 function scrollToTop() {
-    showError();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
