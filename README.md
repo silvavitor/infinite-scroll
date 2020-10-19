@@ -1,6 +1,58 @@
-# infinite-scroll
-Scroll to see random photos or photos from the theme you chose in a feed
+<p align="center">
+  <a href="https://github.com/silvavitor/infinity-scroll">
+    <h1 align="center">Infinity Scroll</h1>
+  </a>
+  
+  <p align="center">
+    An Instagram-like feed that shows random or filtered photos
+    <br />
+    <a href="https://silvavitor.github.io/infinite-scroll/">View Demo</a>
+  </p>
+</p>
 
-(The API is free, so it allows only 50 requests per hour)
+## :bookmark_tabs: What I learned with Infinity Scroll
 
-https://silvavitor.github.io/infinite-scroll/
+* API request from scrolling events
+* Infinite feed impression
+
+## :mag_right: What it does
+
+* Shows random images
+* Shows images that you searched for (by typping)
+* Back to top by button
+* Shows loading and error
+
+## :computer: Built With
+* HTML5
+* CSS
+* Javascript
+* [Unsplash](https://unsplash.com/developers)
+
+## :camera: Screenshots
+img 
+img
+img
+
+## :checkered_flag: Getting Started
+
+It's simple, as I only use HTML, CSS, and Javascript you just need to clone and test it by index.html :)
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/silvavitor/infinite-scroll.git
+```
+
+### Use your API key (Optional)
+1. Create an account in [Unsplash](https://unsplash.com/join)
+2. Go to [your applications](https://unsplash.com/oauth/applications)
+3. Click in "New Application"
+4. Accept the terms
+5. Fill name and description, then confirm.
+6. Search by "Access Key"
+7. Replace my Api Key by yours in script.js
+
+```JS
+const apiKey = "INSERT_YOUR_ACCESS_KEY_HERE";
+```
