@@ -30,13 +30,13 @@
 
 ## :camera: Demos
 
-#### :computer: Desktop
+### :computer: Desktop
 
 <div align="center">
     <img src="./img/desktop.gif" alt="demo-web" heigth="400">
 </div>
 
-##### :iphone: Mobile
+### :iphone: Mobile
 
 <div align="center">
     <img src="./img/mobile.gif" alt="demo-mobile" heigth="400">
