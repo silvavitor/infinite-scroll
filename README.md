@@ -10,7 +10,7 @@
   </p>
 </p>
 
-## :bookmark_tabs: What I learned with Infinity Scroll
+## :pencil: What I learned with Infinity Scroll
 
 * API request from scrolling events
 * Infinite feed impression
@@ -22,16 +22,25 @@
 * Back to top by button
 * Shows loading and error
 
-## :computer: Built With
+## :hammer: Built With
 * HTML5
 * CSS
 * Javascript
 * [Unsplash](https://unsplash.com/developers)
 
 ## :camera: Screenshots
-img 
-img
-img
+
+# :computer: Desktop
+
+<div align="center">
+    <img src="./img/desktop.gif" alt="demo-web" heigth="400">
+</div>
+
+# :iphone: Mobile
+
+<div align="center">
+    <img src="./img/mobile.gif" alt="demo-mobile" heigth="400">
+</div>
 
 ## :checkered_flag: Getting Started
 
