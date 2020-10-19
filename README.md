@@ -6,7 +6,7 @@
   <p align="center">
     An Instagram-like feed that shows random or filtered photos
     <br />
-    <a target="_blank" href="https://silvavitor.github.io/infinite-scroll/">View Demo</a>
+    [View Demo](https://silvavitor.github.io/infinite-scroll/){:target="_blank" rel="noopener"}
   </p>
 </p>
 
